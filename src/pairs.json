@@ -1,0 +1,42 @@
+[
+  // {
+  //   "pair_id": 1,
+
+  //   "donor_id": 1,
+  //   "donor_blood": "O",
+  //   "donor_HLA_tri1": "A1_B7_DR14",
+  //   "donor_HLA_tri2": "A32_B35_DR15",
+  // },
+
+  {
+    "pair_id": 2,
+
+    "donor_id": 2,
+    "donor_blood": "O",
+    "donor_HLA_tri1": "A2_B15_DR11",
+    "donor_HLA_tri2": "A10_B12_DR13",
+
+    "donee_id": 3,
+    "donee_blood": "AB",
+    "donee_HLA_tri1": "A32_B35_DR15",
+    "donee_HLA_tri2": "A1_B7_DR14"
+  },
+
+  {
+    "pair_id": 3,
+
+    "donor_id": 4,
+    "donor_blood": "O",
+    "donor_HLA_tri1": "A1_B1_DR1",
+    "donor_HLA_tri2": "A1_B1_DR1",
+
+    "donee_id": 5,
+    "donee_blood": "AB",
+    "donee_HLA_tri1": "A2_B15_DR11",
+    "donee_HLA_tri2": "A10_B12_DR13"
+  }
+
+]
+
+
+

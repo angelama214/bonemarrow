@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "donor": 1,
+    "otherhalf": 0,
+    "blood": "O",
+    "HLA_tri1": "A1_B7_DR14",
+    "HLA_tri2": "A32_B35_DR15",
+  },
+
+  {
+    "id": 2,
+    "donor": 1,
+    "otherhalf": 3,
+    "blood": "O",
+    "HLA_tri1": "A2_B15_DR11",
+    "HLA_tri2": "A10_B12_DR13"
+  },
+
+  {
+    "id": 3,
+    "donor": 0,
+    "otherhalf": 2,
+    "blood": "AB",
+    "HLA_tri1": "A32_B35_DR15",
+    "HLA_tri2": "A1_B7_DR14"
+  },
+
+  {
+    "id": 4,
+    "donor": 1,
+    "otherhalf": 5,
+    "blood": "O",
+    "HLA_tri1": "A1_B1_DR1",
+    "HLA_tri2": "A1_B1_DR1"
+  },
+
+  {
+    "id": 5,
+    "donor": 0,
+    "otherhalf": 4,
+    "blood": "AB",
+    "HLA_tri1": "A2_B15_DR11",
+    "HLA_tri2": "A10_B12_DR13"
+  }
+
+]
+
+
+
