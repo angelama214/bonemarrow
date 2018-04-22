@@ -9,10 +9,6 @@ App = {
       var petTemplate = $('#petTemplate');
 
       for (i = 0; i < data.length; i ++) {
-        // petTemplate.find('.panel-title').text(data[i].pair_id);
-        // petTemplate.find('.donor-id').text(data[i].donor_id);
-        // petTemplate.find('.donee-id').text(data[i].donee_id);
-        // petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
         petTemplate.find('.panel-title').text(data[i].id);
 
         petTemplate.find('.donor').text(data[i].donor);
