@@ -4,7 +4,7 @@ App = {
 
   init: function() {
     // Load pets.
-    $.getJSON('../pets.json', function(data) {
+    $.getJSON('../people.json', function(data) {
       var petsRow = $('#petsRow');
       var petTemplate = $('#petTemplate');
 
@@ -13,11 +13,11 @@ App = {
         // petTemplate.find('.donor-id').text(data[i].donor_id);
         // petTemplate.find('.donee-id').text(data[i].donee_id);
         // petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
-        petTemplate.find('.panel-title').text(data[i].name);
+        petTemplate.find('.panel-title').text(data[i].id);
 
-        petTemplate.find('.pet-breed').text(data[i].breed);
-        petTemplate.find('.pet-age').text(data[i].age);
-        petTemplate.find('.pet-location').text(data[i].location);
+        petTemplate.find('.donor').text(data[i].donor);
+        petTemplate.find('.otherhalf').text(data[i].otherhalf);
+
         petTemplate.find('.btn-adopt').attr('data-id', data[i].id);
 
         petsRow.append(petTemplate.html());
